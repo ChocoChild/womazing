@@ -1,0 +1,150 @@
+// Header
+
+.header {
+    position: relative;
+    margin-top: 54px;
+    .header--img {
+        position: absolute;
+        top: -54px;
+        right: 0;
+        width: 705px;
+        height: 826px;
+    }
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.header__logo {
+    display: flex;
+    column-gap: 15px;
+    &__img {
+        height: 20px;
+        width: 20px;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+.header__nav {
+    ul {
+        display: flex;
+        column-gap: 45px;
+
+      a {
+        font-weight: 400;
+        font-size: 15px;
+        color: #000;
+
+        &:hover {
+            transition: ease-in 0.1s all;
+            color: #6E9C9F;
+        }
+      }
+    }
+}
+
+.header--contacts {
+    position: relative;
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: -21px;
+    }
+
+    &__link {
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #000;
+    }
+}
+
+.header__cart {
+    z-index: 99;
+}
+
+.header--info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--info__text {
+    h1 {
+        font-size: 55px;
+        font-weight: 500;
+        margin-bottom: 45px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+}
+
+.header--info__buttons {
+    position: relative;
+}
+
+.header--info__buttons__vector {
+    img {
+        padding: 19px 26px;
+        background: rgba(110, 156, 159, 0.1);
+
+    }
+
+    &:hover {
+        background: rgba(97, 135, 138, 0.1);
+        transition: ease 0.2s all;
+    }
+}
+
+.header--info__buttons__page {
+    position: absolute;
+    top: 1px;
+    left: 69px;
+    padding: 22px 50px;
+    background: #6E9C9F;
+    color: #fff;
+
+    &:hover {
+        background: #527c80;
+        transition: ease 0.2s all;
+    }
+}
+
+.header--info__img {
+    position: relative;
+    &__image{
+        transform: translate(60px, -25px);
+    }
+
+    &__image2 {
+        position: relative;
+        z-index: 999;
+        transform: translate(130px, 28px);
+    }
+
+    &__image3 {
+        z-index: 999;
+        transform: translate(-30px, 105px);
+        position: absolute;
+    }
+}
+
+// Collection
