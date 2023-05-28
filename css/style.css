@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+.none {
+  display: none;
+}
+
 .header {
   position: relative;
   margin-top: 54px;
@@ -93,6 +97,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 150px;
 }
 
 .header--info__text h1 {
@@ -124,11 +129,12 @@
 
 .header--info__buttons__page {
   position: absolute;
-  top: 1px;
+  top: 2px;
   left: 69px;
   padding: 22px 50px;
   background: #6E9C9F;
   color: #fff;
+  cursor: pointer;
 }
 .header--info__buttons__page:hover {
   background: #527c80;
@@ -158,6 +164,78 @@
       -ms-transform: translate(-30px, 105px);
           transform: translate(-30px, 105px);
   position: absolute;
+}
+
+.clothing--collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 130px;
+}
+.clothing--collection h2 {
+  font-size: 40;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.clothing--collection__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+}
+
+.clothing--collection__item p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.clothing--collection__item p:hover span {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.clothing--collection__image {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.clothing--collection__image:hover {
+  -webkit-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+  opacity: 0.6;
+}
+
+.clothing--collection__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-right: 100px;
+}
+.clothing--collection__button button {
+  border: 2px solid #6E9C9F;
+  padding: 22px 45px;
+  color: #6E9C9F;
+  cursor: pointer;
+}
+.clothing--collection__button button:hover {
+  border: 2px solid #3c5f63;
+  color: #3c5f63;
+  -webkit-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  transition: ease 0.2s all;
 }
 
 * {

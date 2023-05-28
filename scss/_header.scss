@@ -1,5 +1,9 @@
 // Header
 
+.none {
+    display: none;
+}
+
 .header {
     position: relative;
     margin-top: 54px;
@@ -80,6 +84,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .header--info__text {
@@ -116,11 +121,12 @@
 
 .header--info__buttons__page {
     position: absolute;
-    top: 1px;
+    top: 2px;
     left: 69px;
     padding: 22px 50px;
     background: #6E9C9F;
     color: #fff;
+    cursor: pointer;
 
     &:hover {
         background: #527c80;
@@ -148,3 +154,64 @@
 }
 
 // Collection
+
+.clothing--collection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 130px;
+    h2 {
+        font-size: 40;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+}
+
+.clothing--collection__images {
+    display: flex;
+    column-gap: 25px;
+}
+
+.clothing--collection__item {
+    p {
+        font-size: 20px;
+        font-weight: 500;
+
+        &:hover {
+            span {
+                cursor: pointer;
+                opacity: 0.6;
+            }
+        }
+    }
+}
+
+.clothing--collection__image {
+    margin-bottom: 20px;
+    cursor: pointer;
+    &:hover {
+        transition: ease 0.2s all;
+        opacity: 0.6;
+    }
+}
+
+
+.clothing--collection__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 100px;
+
+    button {
+        border: 2px solid #6E9C9F;
+        padding: 22px 45px;
+        color: #6E9C9F;
+        cursor: pointer;
+
+        &:hover {
+            border: 2px solid #3c5f63;
+            color: #3c5f63;
+            transition: ease 0.2s all;
+        }
+    }
+}
