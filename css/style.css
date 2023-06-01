@@ -692,3 +692,106 @@ button {
 .clothing--collection__images {
   margin-bottom: 120px;
 }
+
+.header {
+  margin-bottom: 190px;
+}
+
+.about--brand {
+  margin-bottom: 200px;
+}
+.about--brand__home h1 {
+  font-size: 55px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.about--brand__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about--brand__nav__home {
+  font-size: 17px;
+  font-weight: 500;
+}
+.about--brand__homep {
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 42px;
+  position: relative;
+}
+.about--brand__homep:after {
+  content: " ";
+  background: #333333;
+  width: 15px;
+  height: 2px;
+  bottom: 7px;
+  right: -28px;
+  position: absolute;
+}
+.about--brand__brand {
+  font-size: 17px;
+  font-weight: 500;
+}
+.about--brand .active {
+  opacity: 0.5;
+}
+
+.about--brand__info--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 90px;
+     -moz-column-gap: 90px;
+          column-gap: 90px;
+  margin-bottom: 120px;
+}
+.about--brand__info--block__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+}
+.about--brand__info--block__text h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.about--brand__info--block__text p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.about--brand__info--block__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 150px;
+}
+.about--brand__info--block__button button {
+  padding: 22px 50px;
+  color: #fff;
+  background: #6E9C9F;
+}
+.about--brand__info--block__button button:hover {
+  background: #3f6f72;
+  -webkit-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+}

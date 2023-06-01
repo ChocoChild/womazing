@@ -1,0 +1,90 @@
+.header {
+    margin-bottom: 190px;
+}
+
+.about--brand {
+    margin-bottom: 200px;
+    &__home {
+        h1 {
+            font-size: 55px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+    }
+
+    &__nav {
+        display: flex;
+
+        &__home {
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+
+    &__homep {
+        font-size: 17px;
+        font-weight: 500;
+        margin-right: 42px;
+        position: relative;
+
+        &:after {
+            content: " ";
+            background: #333333;
+            width: 15px;
+            height: 2px;
+            bottom: 7px;
+            right: -28px;
+            position: absolute;
+        }
+    }
+
+    &__brand {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .active {
+        opacity: 0.5;
+    }
+}
+
+.about--brand__info--block {
+    display: flex;
+    column-gap: 90px;
+    margin-bottom: 120px;
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        h2 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 45px;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+
+    &__button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+        button {
+            padding: 22px 50px;
+            color: #fff;
+            background: #6E9C9F;
+
+            &:hover {
+                background: #3f6f72;
+                transition: ease 0.2s all;
+            }
+        }
+    }
+}
