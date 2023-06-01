@@ -554,6 +554,9 @@ button {
   margin-bottom: 110px;
 }
 
+.shop--products {
+  margin-bottom: 90px;
+}
 .shop--products__title {
   font-size: 55px;
   font-weight: 500;
@@ -598,4 +601,94 @@ button {
 }
 .shop--products .activate {
   opacity: 0.5;
+}
+
+.shop--products__character {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+  margin-bottom: 130px;
+}
+.shop--products__character__price {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #998E78;
+}
+.shop--products__character__price span {
+  margin-left: 10px;
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.shop--products__character__text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.shop--products__character__buttons button {
+  margin-bottom: 60px;
+  margin-right: 5px;
+  border: 1px solid #000;
+  padding: 9px 12px;
+}
+.shop--products__character__colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  margin-bottom: 40px;
+}
+.shop--products__character__colors div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.shop--products__character__colors .brown {
+  background: #927876;
+}
+.shop--products__character__colors .grey {
+  background: #D4D4D4;
+}
+.shop--products__character__colors .red {
+  background: #FD9696;
+}
+.shop--products__character__colors .yellow {
+  background: #FDC796;
+}
+.shop--products__character .active {
+  border: 1px solid #000;
+  opacity: 0.6;
+}
+.shop--products__character__basket .count {
+  border: 1px solid #000;
+  padding: 22px 28px;
+  opacity: 0.4;
+  margin-right: 5px;
+}
+.shop--products__character__basket .add {
+  padding: 22px 50px;
+  color: #fff;
+  background: #6E9C9F;
+}
+.shop--products__character__basket .add:hover {
+  background: #3f6f72;
+  -webkit-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+}
+
+.shop--products__others h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.clothing--collection__images {
+  margin-bottom: 120px;
 }
