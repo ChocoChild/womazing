@@ -78,6 +78,7 @@
 
 .header__cart {
     z-index: 99;
+    transform: translateX(-100px);
 }
 
 .header--info {
@@ -160,7 +161,7 @@
     flex-direction: column;
     margin-bottom: 130px;
     h2 {
-        font-size: 40;
+        font-size: 40px;
         font-weight: 500;
         margin-bottom: 60px;
     }
@@ -171,28 +172,47 @@
     column-gap: 25px;
 }
 
+
 .clothing--collection__item {
+    position: relative;
     p {
         font-size: 20px;
         font-weight: 500;
+        cursor: pointer;
+    }
 
-        &:hover {
-            span {
-                cursor: pointer;
-                opacity: 0.6;
-            }
+    a {
+        display: block;
+        position: relative;
+        margin-bottom: 20px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: rgba(71, 122, 128, 0.6);
+            opacity: 0;
+        }
+
+        &:hover:after {
+            opacity: 0.8;
+            transition: ease 0.2s all;
         }
     }
-}
 
-.clothing--collection__image {
-    margin-bottom: 20px;
-    cursor: pointer;
-    &:hover {
-        transition: ease 0.2s all;
-        opacity: 0.6;
+    &__span {
+        text-decoration: line-through;
+        opacity: .5;
+    }
+
+    span {
+        opacity: .5;
     }
 }
+
 
 
 .clothing--collection__button {

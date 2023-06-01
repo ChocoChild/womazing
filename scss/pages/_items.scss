@@ -1,0 +1,57 @@
+.header {
+    margin-bottom: 110px;
+}
+
+.shop--products {
+
+    &__title {
+        font-size: 55px;
+        font-weight: 500;
+        margin-bottom: 28px;
+    }
+}
+
+.shop--products {
+
+    &__nav {
+        display: flex;
+        column-gap: 42px;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    &__home {
+        position: relative;
+
+        &:after {
+            content: " ";
+            background: #333333;
+            width: 15px;
+            height: 2px;
+            bottom: 7px;
+            right: -28px;
+            position: absolute;
+        }
+    }
+
+    &__item {
+        position: relative;
+        &:after {
+            content: " ";
+            background: #333333;
+            width: 15px;
+            height: 2px;
+            bottom: 7px;
+            right: -28px;
+            position: absolute;
+        }
+    }
+
+    .activate {
+        opacity: 0.5;
+    }
+
+}
