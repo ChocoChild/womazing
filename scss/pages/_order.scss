@@ -1,0 +1,148 @@
+.shop {
+    margin-bottom: 200px;
+}
+
+.order {
+    margin-bottom: 130px;
+}
+.order__info--block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #6E9C9F;
+            padding: 10px 15px;
+            width: 350px;
+            margin-bottom: 15px;
+
+            &::placeholder {
+                font-size: 17px;
+                font-weight: 500;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.order__info--block__order {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 60px;
+    }
+}
+
+.order__wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+
+    .order__name {
+        
+        p {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    .order__count {
+        p {
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 38px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.order__adress--block {
+    display: flex;
+    justify-content: space-between;
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 50px;
+        }
+
+        input {
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #6E9C9F;
+            padding: 10px 15px;
+            width: 350px;
+            margin-bottom: 15px;
+
+            &::placeholder {
+                font-size: 17px;
+                font-weight: 500;
+                opacity: 0.7;
+            }
+        }
+    }
+
+    &__pay--method {
+        margin-right: 110px;
+        margin-top: 90px;
+
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 45px;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 45px;
+        }
+
+        button {
+            padding: 22px 50px;
+            color: #fff;
+            background: #6E9C9F;
+            margin-bottom: 60px;
+        
+            &:hover {
+                background: #3f6f72;
+                transition: ease 0.2s all;
+            }
+        }
+    }
+}
