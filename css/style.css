@@ -262,6 +262,7 @@
   margin: 0;
   padding: 0;
   font-family: "Raleway", sans-serif;
+  outline: none;
 }
 
 a {
@@ -794,4 +795,157 @@ button {
   -webkit-transition: ease 0.2s all;
   -o-transition: ease 0.2s all;
   transition: ease 0.2s all;
+}
+
+.about--brand {
+  margin-bottom: 210px;
+}
+
+.contacts__map {
+  width: 1109px;
+  height: 476px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #DDDDDD;
+  margin-bottom: 130px;
+}
+.contacts__map p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.contacts--adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  -webkit-column-gap: 115px;
+     -moz-column-gap: 115px;
+          column-gap: 115px;
+  margin-bottom: 130px;
+}
+.contacts--adress span {
+  font-size: 17px;
+  font-weight: 500;
+}
+.contacts--adress p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input--block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.input--block h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 45px;
+}
+.input--block input {
+  outline: none;
+  border: none;
+  width: 300px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #6E9C9F;
+}
+.input--block input::-webkit-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block input::-moz-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block input:-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block input::-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block input::placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block textarea {
+  outline: none;
+  border: none;
+  width: 450px;
+  height: 100px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #6E9C9F;
+  resize: none;
+}
+.input--block textarea::-webkit-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block textarea::-moz-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block textarea:-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block textarea::-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.input--block textarea::placeholder {
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.input--send button {
+  padding: 22px 50px;
+  color: #fff;
+  background: #6E9C9F;
+  margin-bottom: 60px;
+}
+.input--send button:hover {
+  background: #3f6f72;
+  -webkit-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+}
+.input--send__text {
+  width: 450px;
+  margin-bottom: 130px;
+}
+.input--send__text p {
+  padding: 30px 70px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #F1EADC;
 }
