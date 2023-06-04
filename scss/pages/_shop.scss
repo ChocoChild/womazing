@@ -12,7 +12,7 @@
     display: flex;
     column-gap: 40px;
 
-    &__home {
+    &__item {
         position: relative;
         font-size: 17px;
         font-weight: 500;
@@ -28,7 +28,7 @@
         }
     }
 
-    &__shop {
+    &__item3 {
         font-size: 17px;
         font-weight: 500;
     }

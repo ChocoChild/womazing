@@ -477,12 +477,12 @@ button {
      -moz-column-gap: 40px;
           column-gap: 40px;
 }
-.content-nav-list__home {
+.content-nav-list__item {
   position: relative;
   font-size: 17px;
   font-weight: 500;
 }
-.content-nav-list__home:after {
+.content-nav-list__item:after {
   content: " ";
   background: #333333;
   width: 15px;
@@ -491,7 +491,7 @@ button {
   right: -28px;
   position: absolute;
 }
-.content-nav-list__shop {
+.content-nav-list__item3 {
   font-size: 17px;
   font-weight: 500;
 }
@@ -564,88 +564,47 @@ button {
   margin-bottom: 110px;
 }
 
-.shop--products {
-  margin-bottom: 90px;
-}
-.shop--products__title {
-  font-size: 55px;
-  font-weight: 500;
-  margin-bottom: 28px;
-}
-
-.shop--products__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-column-gap: 42px;
-     -moz-column-gap: 42px;
-          column-gap: 42px;
-}
-.shop--products p {
-  font-size: 17px;
-  font-weight: 500;
-}
-.shop--products__home {
-  position: relative;
-}
-.shop--products__home:after {
-  content: " ";
-  background: #333333;
-  width: 15px;
-  height: 2px;
-  bottom: 7px;
-  right: -28px;
-  position: absolute;
-}
-.shop--products__item {
-  position: relative;
-}
-.shop--products__item:after {
-  content: " ";
-  background: #333333;
-  width: 15px;
-  height: 2px;
-  bottom: 7px;
-  right: -28px;
-  position: absolute;
-}
-.shop--products .activate {
-  opacity: 0.5;
-}
-
-.shop--products__character {
+.shop-items__character {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 70px;
      -moz-column-gap: 70px;
           column-gap: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 130px;
 }
-.shop--products__character__price {
-  margin-top: 80px;
+.shop-items__character .shop-items__select-price {
+  margin-top: 20px;
   margin-bottom: 50px;
   font-size: 40px;
   font-weight: 500;
   color: #998E78;
 }
-.shop--products__character__price span {
+.shop-items__character .shop-items__select-price span {
   margin-left: 10px;
   text-decoration: line-through;
   opacity: 0.5;
 }
-.shop--products__character__text {
+.shop-items__character .shop-items__select-text {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 30px;
 }
-.shop--products__character__buttons button {
+.shop-items__character .shop-items__select-subtext {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.shop-items__character .shop-items__select-sizes button {
   margin-bottom: 60px;
   margin-right: 5px;
   border: 1px solid #000;
   padding: 9px 12px;
 }
-.shop--products__character__colors {
+.shop-items__character .shop-items__select-color {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -654,131 +613,86 @@ button {
           column-gap: 10px;
   margin-bottom: 40px;
 }
-.shop--products__character__colors div {
+.shop-items__character .shop-items__select-color div {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-.shop--products__character__colors .brown {
+.shop-items__character .shop-items__select-color .brown {
   background: #927876;
 }
-.shop--products__character__colors .grey {
+.shop-items__character .shop-items__select-color .grey {
   background: #D4D4D4;
 }
-.shop--products__character__colors .red {
+.shop-items__character .shop-items__select-color .red {
   background: #FD9696;
 }
-.shop--products__character__colors .yellow {
+.shop-items__character .shop-items__select-color .yellow {
   background: #FDC796;
 }
-.shop--products__character .active {
+.shop-items__character .shop-items__select .active {
   border: 1px solid #000;
   opacity: 0.6;
 }
-.shop--products__character__basket .count {
+
+.shop-items__busket .busket-count {
   border: 1px solid #000;
-  padding: 22px 28px;
+  padding: 20px 28px;
   opacity: 0.4;
   margin-right: 5px;
 }
-.shop--products__character__basket .add {
+.shop-items__busket .busket-add {
   padding: 22px 50px;
   color: #fff;
   background: #6E9C9F;
 }
-.shop--products__character__basket .add:hover {
+.shop-items__busket .busket-add:hover {
   background: #3f6f72;
   -webkit-transition: ease 0.2s all;
   -o-transition: ease 0.2s all;
   transition: ease 0.2s all;
 }
 
-.shop--products__others h2 {
+.shop-items__others .shop-items__title {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 60px;
 }
 
-.clothing--collection__images {
-  margin-bottom: 120px;
+.clothing-collection__images {
+  margin-bottom: 200px;
 }
 
 .header {
   margin-bottom: 190px;
 }
 
-.about--brand {
+.brand-desc {
   margin-bottom: 200px;
-}
-.about--brand__home h1 {
-  font-size: 55px;
-  font-weight: 500;
-  margin-bottom: 25px;
-}
-.about--brand__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.about--brand__nav__home {
-  font-size: 17px;
-  font-weight: 500;
-}
-.about--brand__homep {
-  font-size: 17px;
-  font-weight: 500;
-  margin-right: 42px;
-  position: relative;
-}
-.about--brand__homep:after {
-  content: " ";
-  background: #333333;
-  width: 15px;
-  height: 2px;
-  bottom: 7px;
-  right: -28px;
-  position: absolute;
-}
-.about--brand__brand {
-  font-size: 17px;
-  font-weight: 500;
-}
-.about--brand .active {
-  opacity: 0.5;
-}
-
-.about--brand__info--block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 90px;
      -moz-column-gap: 90px;
           column-gap: 90px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 120px;
 }
-.about--brand__info--block__text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: left;
-}
-.about--brand__info--block__text h2 {
-  font-size: 25px;
+.brand-desc__text .text__title {
+  font-size: 55px;
   font-weight: 500;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
-.about--brand__info--block__text p {
+.brand-desc__text .text__subtitle {
   font-size: 17px;
   font-weight: 500;
 }
-.about--brand__info--block__button {
+.brand-desc .active {
+  opacity: 0.5;
+}
+.brand-desc__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -793,17 +707,6 @@ button {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 150px;
-}
-.about--brand__info--block__button button {
-  padding: 22px 50px;
-  color: #fff;
-  background: #6E9C9F;
-}
-.about--brand__info--block__button button:hover {
-  background: #3f6f72;
-  -webkit-transition: ease 0.2s all;
-  -o-transition: ease 0.2s all;
-  transition: ease 0.2s all;
 }
 
 .about--brand {

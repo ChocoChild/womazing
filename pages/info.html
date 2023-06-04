@@ -10,48 +10,46 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
-            <div class="wrapper">
+            <div class="header__wrapper">
                 <div class="header__logo">
-                    <img class="header__logo__img" src="../img/header/dress.svg" alt="Dress">
-                    <p class="header__logo__text">Womazing</p>
+                    <img class="header__logo-img" src="../img/header/dress.svg" alt="Dress">
+                    <p class="header__logo-description">Womazing</p>
                 </div>
                 <div class="header__nav">
-                    <ul>
-                        <li><a href="#!">Главная</a></li>
-                        <li><a href="#!">Магазин</a></li>
-                        <li><a href="#!">О бренде</a></li>
-                        <li><a href="#!">Контакты</a></li>
+                    <ul class="header__nav-list">
+                        <li class="list__item"><a class="list__link" href="#!">Главная</a></li>
+                        <li class="list__item"><a class="active list__link" href="#!">Магазин</a></li>
+                        <li class="list__item"><a class="list__link" href="#!">О бренде</a></li>
+                        <li class="list__item"><a class="list__link" href="#!">Контакты</a></li>
                     </ul>
                 </div>
-                <div class="header--contacts">
-                    <img class="header--contacts__img" src="../img/header/telepnohe.svg" alt="telephone">
-                    <a class="header--contacts__link" href="$!">+7 (495) 823-54-12</a>
+                <div class="header__contacts">
+                    <img class="header__contacts-img" src="../img/header/telepnohe.svg" alt="telephone">
+                    <a class="header__contacts-link" href="$!">+7 (495) 823-54-12</a>
                 </div>
                 <div class="header__cart">
-                    <img src="../img/header/cart.svg" alt="cart">
+                    <img class="header__cart-basket" src="../img/header/cart.svg" alt="cart">
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <div class="container">
-        <div class="about--brand">
-            <div class="about--brand__home">
-                <h1>О бренде</h1>
-                <div class="about--brand__nav">
-                    <p class="about--brand__homep">Главная</p>
-                    <p class="about--brand__brand active">О бренде</p>
-                </div>
+        <div class="content">
+            <h2 class="content__title">О бренде</h2>
+            <div class="content-nav-list">
+                <p class="content-nav-list__home">Главная</p>
+                <p class="activate content-nav-list__shop">О бренде</p>
             </div>
         </div>
 
-        <div class="about--brand__info--block">
-            <img src="../img/about/girl1.jpg" alt="Girl">
-            <div class="about--brand__info--block__text">
-                <h2>Идея и женщина</h2>
-                <p>Womazing была основана в 2010-ом и стала одной из самых успешных компаний нашей страны. Как и многие
+        <div class="brand-desc">
+            <img class="brand-desc__img" src="../img/about/girl1.jpg" alt="Girl">
+            <div class="brand-desc__text">
+                <h2 class="text__title">Идея и женщина</h2>
+                <p class="text__subtitle">Womazing была основана в 2010-ом и стала одной из самых успешных компаний нашей страны. Как и многие
                     итальянские фирмы, Womazing остаётся семейной компанией, хотя ни один из членов семьи не является
                     модельером.
 
@@ -62,10 +60,10 @@
         </div>
 
 
-        <div class="about--brand__info--block">
-            <div class="about--brand__info--block__text">
-                <h2>Магия в деталях</h2>
-                <p>Первый магазин Womazing был открыт в маленьком городке на севере страны в 2010-ом году. Первая
+        <div class="brand-desc">
+            <div class="brand-desc__text">
+                <h2 class="text__title">Магия в деталях</h2>
+                <p class="text__subtitle">Первый магазин Womazing был открыт в маленьком городке на севере страны в 2010-ом году. Первая
                     коллекция состояла из двух пальто и костюма, которые были копиями парижских моделей.
 
                     Несмотря на то, что по образованию основательница была адвокатом, ее семья всегда была тесно связана
@@ -74,10 +72,10 @@
                     то время, когда высокая мода по-прежнему доминировала, а рынка качественного prêt-a-porter попросту
                     не существовало. </p>
             </div>
-            <img src="../img/about/girl2.jpg" alt="Girl">
+            <img class="brand-desc__img" src="../img/about/girl2.jpg" alt="Girl">
         </div>
-        <div class="about--brand__info--block__button">
-            <button>Перейти в магазин</button>
+        <div class="brand-desc__button">
+            <button class="button">Перейти в магазин</button>
         </div>
     </div>
 
@@ -85,39 +83,39 @@
         <div class="container">
             <div class="footer">
                 <div class="footer__logo">
-                    <img src="../img/header/dress.svg" alt="logo">
-                    <h3>Womazing</h3>
+                    <img class="footer__logo-img" src="../img/header/dress.svg" alt="logo">
+                    <h3 class="footer__logo-title">Womazing</h3>
                 </div>
                 <div class="footer__nav">
-                    <ul>
-                        <li><a href="#!">Главная</a></li>
-                        <li><a href="#!">Магазин</a></li>
-                        <li><a href="#!">О бренде</a></li>
-                        <li><a href="#!">Контакты</a></li>
+                    <ul class="nav__list">
+                        <li><a class="nav__link" href="#!">Главная</a></li>
+                        <li><a class="nav__link" href="#!">Магазин</a></li>
+                        <li><a class="nav__link" href="#!">О бренде</a></li>
+                        <li><a class="nav__link" href="#!">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="footer__contacts">
-                    <a href="#!">+7 (495) 823-54-12</a>
-                    <p>hello@womazing.com</p>
-                    <div class="footer__contacts__social-icons">
-                        <img src="../img/footer/instagram.svg" alt="instagram">
-                        <img src="../img/footer/facebook.svg" alt="facebook">
-                        <img src="../img/footer/twitter.png" alt="twitter">
+                    <a class="contacts__link" href="#!">+7 (495) 823-54-12</a>
+                    <p class="contacts__subtitle">hello@womazing.com</p>
+                    <div class="footer__contacts-social-icons">
+                        <img class="contacts-social-icons__img" src="../img/footer/instagram.svg" alt="instagram">
+                        <img class="contacts-social-icons__img" src="../img/footer/facebook.svg" alt="facebook">
+                        <img class="contacts-social-icons__img" src="../img/footer/twitter.png" alt="twitter">
                     </div>
-                    <img src="../img/footer/visa.svg" alt="visa">
+                    <img class="footer__contacts-img" src="../img/footer/visa.svg" alt="visa">
                 </div>
             </div>
-            <div class="footer--links">
-                <div class="footer--links__rights">
-                    <p><a href="#!">© Все права защищены</a></p>
-                    <p><a href="#!">Политика конфиденциальности</a></p>
-                    <p><a href="#!">Публичная оферта</a></p>
+            <div class="footer__links">
+                <div class="footer__links-lefts">
+                    <p class="lefts__subtitle"><a class="lefts__link" href="#!">© Все права защищены</a></p>
+                    <p class="lefts__subtitle"><a class="lefts__link" href="#!">Политика конфиденциальности</a></p>
+                    <p class="lefts__subtitle"><a class="lefts__link" href="#!">Публичная оферта</a></p>
                 </div>
-                <div class="footer--links__category">
-                    <p><a href="#!">Пальто</a></p>
-                    <p><a href="#!">Свитшоты</a></p>
-                    <p><a href="#!">Кардиганы</a></p>
-                    <p><a href="#!">Толстовки</a></p>
+                <div class="footer__links-category">
+                    <p class="category__subtitle"><a class="category__link" href="#!">Пальто</a></p>
+                    <p class="category__subtitle"><a class="category__link" href="#!">Свитшоты</a></p>
+                    <p class="category__subtitle"><a class="category__link" href="#!">Кардиганы</a></p>
+                    <p class="category__subtitle"><a class="category__link" href="#!">Толстовки</a></p>
                 </div>
             </div>
         </div>

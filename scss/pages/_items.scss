@@ -2,154 +2,114 @@
     margin-bottom: 110px;
 }
 
-.shop--products {
-    margin-bottom: 90px;
-    &__title {
-        font-size: 55px;
-        font-weight: 500;
-        margin-bottom: 28px;
-    }
-}
-
-.shop--products {
-
-    &__nav {
-        display: flex;
-        column-gap: 42px;
-    }
-
-    p {
-        font-size: 17px;
-        font-weight: 500;
-    }
-
-    &__home {
-        position: relative;
-
-        &:after {
-            content: " ";
-            background: #333333;
-            width: 15px;
-            height: 2px;
-            bottom: 7px;
-            right: -28px;
-            position: absolute;
-        }
-    }
-
-    &__item {
-        position: relative;
-        &:after {
-            content: " ";
-            background: #333333;
-            width: 15px;
-            height: 2px;
-            bottom: 7px;
-            right: -28px;
-            position: absolute;
-        }
-    }
-
-    .activate {
-        opacity: 0.5;
-    }
-
-}
-
-.shop--products__character {
+.shop-items__character {
     display: flex;
     column-gap: 70px;
+    align-items: center;
     margin-bottom: 130px;
 
-    &__price {
-        margin-top: 80px;
-        margin-bottom: 50px;
-        font-size: 40px;
-        font-weight: 500;
-        color: #998E78;
+    .shop-items__select {
 
-        span {
-            margin-left: 10px;
-            text-decoration: line-through;
-            opacity: 0.5;
-        }
-    }
-
-    &__text {
-        font-size: 20px;
-        font-weight: 500;
-        margin-bottom: 30px;
-    }
-
-    &__buttons {
-        button {
-            margin-bottom: 60px;
-            margin-right: 5px;
-            border: 1px solid #000;
-            padding: 9px 12px;
-        }
-    }
-
-    &__colors {
-        display: flex;
-        column-gap: 10px;
-        margin-bottom: 40px;
-        div {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        }
-        .brown {
-            background: #927876;
-        }
-
-        .grey {
-            background: #D4D4D4;
-        }
-
-        .red {
-            background: #FD9696;
-        }
-
-        .yellow {
-            background: #FDC796;
-        }
-    }
-
-    .active {
-        border: 1px solid #000;
-        opacity: 0.6;
-    }
-
-    &__basket {
-        .count {
-            border: 1px solid #000;
-            padding: 22px 28px;
-            opacity: 0.4;
-            margin-right: 5px;
-        }
-
-        .add {
-            padding: 22px 50px;
-            color: #fff;
-            background: #6E9C9F;
-
-            &:hover {
-                background: #3f6f72;
-                transition: ease 0.2s all;
+        &-price {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 40px;
+            font-weight: 500;
+            color: #998E78;
+    
+            span {
+                margin-left: 10px;
+                text-decoration: line-through;
+                opacity: 0.5;
             }
+        }
+    
+        &-text {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        &-subtext {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+    
+        &-sizes {
+
+            button {
+                margin-bottom: 60px;
+                margin-right: 5px;
+                border: 1px solid #000;
+                padding: 9px 12px;
+            }
+        }
+    
+        &-color {
+            display: flex;
+            column-gap: 10px;
+            margin-bottom: 40px;
+
+            div {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            }
+            .brown {
+                background: #927876;
+            }
+    
+            .grey {
+                background: #D4D4D4;
+            }
+    
+            .red {
+                background: #FD9696;
+            }
+    
+            .yellow {
+                background: #FDC796;
+            }
+        }
+    
+        .active {
+            border: 1px solid #000;
+            opacity: 0.6;
+        }
+    }
+
+}
+
+.shop-items__busket {
+
+    .busket-count {
+        border: 1px solid #000;
+        padding: 20px 28px;
+        opacity: 0.4;
+        margin-right: 5px;
+    }
+
+    .busket-add {
+        padding: 22px 50px;
+        color: #fff;
+        background: #6E9C9F;
+
+        &:hover {
+            background: #3f6f72;
+            transition: ease 0.2s all;
         }
     }
 }
 
-.shop--products__others {
-    h2 {
+.shop-items__others {
+    .shop-items__title {
         font-size: 40px;
         font-weight: 500;
         margin-bottom: 60px;
     }
 }
 
-.clothing--collection__images {
-    margin-bottom: 120px;
+.clothing-collection__images {
+    margin-bottom: 200px;
 }
