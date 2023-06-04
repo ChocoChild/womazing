@@ -1,13 +1,14 @@
-.shop {
+.content {
     margin-bottom: 200px;
-    h2 {
+
+    &__title {
         font-size: 55px;
         font-weight: 500;
         margin-bottom: 25px;
     }
 }
 
-.shop__nav {
+.content-nav-list {
     display: flex;
     column-gap: 40px;
 
@@ -39,7 +40,8 @@
 
 .shop__category {
     margin-bottom: 90px;
-    &__button {
+
+    &-button {
         margin-right: 5px;
         border: 1px solid #000;
         padding: 19px 65px;
@@ -47,14 +49,14 @@
         font-weight: 500;
     }
 
-    .activate {
+    .active-shop {
         background: #000;
         color: #fff;
     }
 }
 
-.shop__goods {
-    &__title {
+.shop__items {
+    &-title {
         font-size: 17px;
         font-weight: 500;
         opacity: 0.5;
@@ -62,7 +64,7 @@
     }
 }
 
-.clothing--collection {
+.clothing-collection {
     
     &__images {
         margin-bottom: 70px;
@@ -81,17 +83,17 @@
     column-gap: 5px;
     margin-bottom: 120px;
 
-    &__prev {
+    &-prev {
         font-size: 26px;
         font-weight: 500;
     }
 
-    &__next {
+    &-next {
         font-size: 26px;
         font-weight: 500;
     }
 
-    &__button {
+    &-button {
         border: 1px solid #000;
         padding: 9px 16px;
     }

@@ -1,58 +1,60 @@
-.about--advantage {
-    h2 {
+.about-advantage {
+
+    &__title {
         margin-bottom: 90px;
         font-size: 40px;
         font-weight: 500;
     }
+    
+    &__desc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 110px;
+    }
 }
 
-.about--advantage__info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 110px;
-
-    &__text {
-        img {
+.desc-text {
+        &__pic {
             margin-bottom: 33px;
         }
 
-        h3 {
+        &__title {
             font-size: 25px;
             font-weight: 500;
             margin-bottom: 25px;
             align-items: center;
         }
 
-        p {
+        &__subtitle {
             font-weight: 500;
             font-size: 17px;
             width: 293px;
             height: 115px;
         }
-    }
 }
 
-.about--team {
+.about__team {
     display: flex;
     justify-content: space-between;
     column-gap: 100px;
     margin-bottom: 95px;
 
-    &__text {
-        h3 {
+    .text {
+
+        &__title {
             font-size: 25px;
             font-weight: 500;
             margin-bottom: 25px;
         }
 
-        p {
+        &__subtitle {
             font-size: 17px;
             font-weight: 500;
             margin-bottom: 25px;
         }
 
-        a {
+        &__link {
             font-weight: 500;
             font-size: 17px;
             color: #6E9C9F;
