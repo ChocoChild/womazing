@@ -5,43 +5,43 @@
 .order {
     margin-bottom: 130px;
 }
-.order__info--block {
+.order-desc {
     display: flex;
     justify-content: space-between;
     margin-bottom: 70px;
 
-    &__user {
+    &__inner {
         display: flex;
         flex-direction: column;
+    }
 
-        h2 {
-            font-size: 25px;
+    &__title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+
+    &__input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #6E9C9F;
+        padding: 10px 15px;
+        width: 350px;
+        margin-bottom: 15px;
+
+        &::placeholder {
+            font-size: 17px;
             font-weight: 500;
-            margin-bottom: 40px;
-        }
-
-        input {
-            outline: none;
-            border: none;
-            border-bottom: 1px solid #6E9C9F;
-            padding: 10px 15px;
-            width: 350px;
-            margin-bottom: 15px;
-
-            &::placeholder {
-                font-size: 17px;
-                font-weight: 500;
-                opacity: 0.7;
-            }
+            opacity: 0.7;
         }
     }
 }
 
-.order__info--block__order {
+.order-desc__order {
     display: flex;
     flex-direction: column;
 
-    h2 {
+    &__title {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 60px;
@@ -55,20 +55,21 @@
 
     .order__name {
         
-        p {
+        .name__text {
             font-size: 20px;
             font-weight: 500;
             margin-bottom: 30px;
         }
 
-        h2 {
+        .name__title {
             font-size: 20px;
             font-weight: 500;
         }
     }
 
     .order__count {
-        p {
+
+        .count__text {
             font-size: 17px;
             font-weight: 500;
             margin-bottom: 38px;
@@ -78,7 +79,7 @@
             }
         }
 
-        h3 {
+        .count__title {
             font-size: 20px;
             font-weight: 500;
             margin-bottom: 30px;
@@ -87,62 +88,50 @@
 }
 
 
-.order__adress--block {
+.order-adress {
     display: flex;
     justify-content: space-between;
 
     &__user {
         display: flex;
         flex-direction: column;
+    }
 
-        h3 {
-            font-size: 25px;
+    .order-adress__title {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    &__input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #6E9C9F;
+        padding: 10px 15px;
+        width: 350px;
+        margin-bottom: 15px;
+
+        &::placeholder {
+            font-size: 17px;
             font-weight: 500;
-            margin-bottom: 50px;
-        }
-
-        input {
-            outline: none;
-            border: none;
-            border-bottom: 1px solid #6E9C9F;
-            padding: 10px 15px;
-            width: 350px;
-            margin-bottom: 15px;
-
-            &::placeholder {
-                font-size: 17px;
-                font-weight: 500;
-                opacity: 0.7;
-            }
+            opacity: 0.7;
         }
     }
 
-    &__pay--method {
+    &__pay-method {
         margin-right: 110px;
         margin-top: 90px;
 
-        h3 {
+        .pay-method__title {
             font-size: 25px;
             font-weight: 500;
             margin-bottom: 45px;
         }
 
-        p {
+        .pay-method__subtitle {
             font-size: 17px;
             font-weight: 500;
             margin-bottom: 45px;
-        }
-
-        button {
-            padding: 22px 50px;
-            color: #fff;
-            background: #6E9C9F;
-            margin-bottom: 60px;
-        
-            &:hover {
-                background: #3f6f72;
-                transition: ease 0.2s all;
-            }
         }
     }
 }

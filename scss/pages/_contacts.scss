@@ -1,4 +1,4 @@
-.about--brand {
+.about-brand {
     margin-bottom: 210px;
 }
 
@@ -18,35 +18,35 @@
     }
 }
 
-.contacts--adress {
+.contacts-adress {
     display: flex;
     text-align: left;
     column-gap: 115px;
     margin-bottom: 130px;
 
-    span {
+    &__title {
         font-size: 17px;
         font-weight: 500;
     }
 
-    p {
+    &__subtext {
         margin-top: 20px;
         font-size: 20px;
         font-weight: 500;
     }
 }
 
-.input--block {
+.input-block {
     display: flex;
     flex-direction: column;
 
-    h3 {
+    &__title {
         font-size: 25px;
         font-weight: 500;
         margin-bottom: 45px;
     }
 
-    input {
+    &__input {
         outline: none;
         border: none;
         width: 300px;
@@ -60,7 +60,7 @@
         }
     }
 
-    textarea {
+    &__textarea {
         outline: none;
         border: none;
         width: 450px;
@@ -77,22 +77,13 @@
     }
 }
 
-.input--send {
-    button {
-        padding: 22px 50px;
-        color: #fff;
-        background: #6E9C9F;
-        margin-bottom: 60px;
+.input-send {
     
-        &:hover {
-            background: #3f6f72;
-            transition: ease 0.2s all;
-        }
-    }
-
-    &__text {
+    &__subtext {
         width: 450px;
         margin-bottom: 130px;
+        margin-top: 60px;
+
         p {
             padding: 30px 70px;
             font-size: 17px;
